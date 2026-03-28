@@ -1,0 +1,10 @@
+row = int(input("enter the number of rows = "))
+symbol = input("enter the symbol = ")
+for i in range(0,row):
+    for j in range(row-i):
+        print(" ", end = " ")
+    for j in range(i+1):
+         print(symbol, end = " ")
+    for j in range(0,i):
+        print(symbol, end = " ")
+    print()

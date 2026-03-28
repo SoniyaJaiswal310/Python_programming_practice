@@ -1,0 +1,26 @@
+n = int(input("enter a number of numbers to be added = "))
+result = 0
+for x in range(1,n+1):
+    result +=x
+print(f"sum = {result}")
+
+
+
+
+------------OR--------------
+
+
+
+n = int(input("enter a number of numbers to be added = "))
+result = sum(range(1,n+1))
+print(f"sum = {result}")
+
+
+
+-------------OR-----------------
+
+
+
+
+n = int(input("enter a number of numbers to be added = "))
+print("sum = ", sum(range(1,n+1)))
