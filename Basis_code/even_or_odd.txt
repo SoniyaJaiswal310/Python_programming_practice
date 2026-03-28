@@ -1,0 +1,13 @@
+x = int(input("enter a number = "))
+if x%2==0:
+    print("the number is  even")
+else:
+    print("the number is odd")
+
+
+----------OR--------------------
+
+
+
+a = int(input("enter a number = "))
+print("the number is  even" if a%2==0 else "the number is odd" )

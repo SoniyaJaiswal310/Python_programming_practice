@@ -1,0 +1,7 @@
+a = int(input("num1 = "))
+b = int(input("num2 = "))
+temp = a
+a = b
+b = temp
+print(f"num1 = {a}")
+print(f"num2 = {b}")
