@@ -1,0 +1,14 @@
+s = input("enter a string: ")
+result = ""
+for i in range(0,len(s)):
+    if s[i]!=" ":
+        result+=s[i]
+print (result)
+
+
+------------------------------
+
+
+s = input("enter a string: ")
+s1 = s.replace(" ", "")
+print(s1)
