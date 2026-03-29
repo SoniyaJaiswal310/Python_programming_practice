@@ -1,0 +1,13 @@
+nums = []  
+while True:
+    x = input("enter elements in the list")
+    if x == 'q':
+       break
+    nums.append(int(x))
+if nums:
+    max = max(nums)
+    min = min(nums)
+    print(f"max ={max}")
+    print(f"min = {min}")
+else:
+    print("list is empty")

@@ -1,0 +1,8 @@
+nums = []
+while True:
+    x = input("enter the elements of the list: ")
+    if x =='q':
+        break
+    nums.append(x)
+nums = nums[::-1]
+print(nums)

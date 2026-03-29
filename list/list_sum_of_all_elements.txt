@@ -1,0 +1,26 @@
+nums = []  
+while True:
+    x = input("enter elements in the list")
+    if x == 'q':
+       break
+    nums.append(int(x))
+sum = sum(nums)
+print(sum)
+
+
+
+-------------------------------------
+
+
+
+nums = []  
+sum =0    
+
+while True:
+    x = input("enter elements in the list")
+    if x == 'q':
+       break
+    nums.append(int(x))
+for i in nums:
+    sum+=i
+print(sum)

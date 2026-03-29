@@ -1,0 +1,12 @@
+nums = []
+while True:
+    x = input("enter the elements of the list: ")
+    if x =='q':
+        break
+    nums.append(int(x))
+unique = []
+for i in nums:
+    if i not in unique:
+        unique.append(i)
+print(unique)
+
