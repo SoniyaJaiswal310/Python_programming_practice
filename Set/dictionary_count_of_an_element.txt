@@ -1,0 +1,14 @@
+a =[]
+while True:
+    x = input("enter the elements of the list: ")
+    if x=='q':
+        break
+    a.append(x)
+
+b = {}
+for i in a:
+    if i in b:
+        b[i] += 1
+    else:
+        b[i]=1
+print(b)
