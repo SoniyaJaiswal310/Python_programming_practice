@@ -1,0 +1,24 @@
+def add(num1,num2):
+        print(num1+num2)
+def sub(num1,num2):
+        print(num1-num2)
+def mul(num1,num2):
+        print(num1*num2)
+def div(num1,num2):
+        print(num1/num2)
+
+def calculator(op):
+    if op=='+':
+        add(num1,num2)
+    elif op=='-': 
+        sub(num1,num2)
+    elif op=='*':
+        mul(num1,num2)
+    elif op=='/':
+        div(num1,num2)
+        
+num1 = int(input("enter num1 = "))
+num2 = int(input("enter num2 = "))
+op = (input("enter a operator(+,-,*,/) = "))
+calculator(op)
+
